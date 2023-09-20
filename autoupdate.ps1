@@ -1,4 +1,4 @@
-﻿Set-ExecutionPolicy bypass -force
+Set-ExecutionPolicy bypass -force
 $ConfirmPreference = 'None'
 Install-Module PSWindowsUpdate -Force
 Import-Module PSWindowsUpdate -Force
