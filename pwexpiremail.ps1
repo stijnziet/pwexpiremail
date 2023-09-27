@@ -35,6 +35,9 @@ $expireindays = 15
 #Program File Path
 $DirPath = "C:\beheer\scripts\PasswordExpiry"
 
+#optioneel als je deze fout in je log vindt: CategoryInfo : NotSpecified: (:) [], MethodInvocationException 
+#[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 
+
 $Date = Get-Date
 #Check if program dir is present
 $DirPathCheck = Test-Path -Path $DirPath
